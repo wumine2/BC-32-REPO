@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+.terraform/
+oidc/
+terra-*
+environments/eks/*
+.terraform.lock.hcl
+=======
+ec2/terraform.*
+ec2/prod.*
+ec2/.terraform.*
+ec2/.terraform.lock.hcl
+ec2/.terraform/
+
+eks/terraform.*
+eks/prod.*
+eks/.terraform.*
+eks/.terraform.lock.hcl
+eks/.terraform/
+
+vpc/terraform.*
+vpc/prod.*
+vpc/.terraform.*
+vpc/.terraform.lock.hcl
+vpc/.terraform/
+vpc/.terraform.lock.hcl
+
+
+s3/terraform.*
+s3/prod.*
+s3/.terraform.*
+s3/.terraform.lock.hcl
+s3/.terraform/
+>>>>>>> e6570d7 (update)

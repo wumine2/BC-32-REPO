@@ -1,0 +1,14 @@
+ ../../.DS_Store
+../../.terraform.lock.hcl
+../.DS_Store
+../ec2/.terraform.lock.hcl
+../../instant-profile/.terraform.lock.hcl
+../../instant-profile/terraform.tfstate
+../../instant-profile/terraform.tfstate.backup
+.terraform.*
+terraform/
+CLD-29/terraform.tfstate.backup
+CLD-29/terraform.tfstate
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
