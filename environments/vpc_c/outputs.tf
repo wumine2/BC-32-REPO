@@ -7,9 +7,9 @@ output "public" {
 }
 
 output "node_role" {
-  value = "aws_iam_role.nodes.arn"
+  value = module.iam.node_role
 }
 output "demo_role" {
-  value = "aws_iam_role.demo.arn"
+  value = module.iam.demo_role
 }
 

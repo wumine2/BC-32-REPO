@@ -1,8 +1,4 @@
-#module "iam_module" {
-# source = "git::https://github.com/wumine2/iam-module.git"
-#}
-
-#data python 
+#using external data to generate vpc time stamp
 data "external" "vpc_name" {
   program = ["python3", "${path.module}/name.py"]
 }

@@ -1,5 +1,4 @@
 .terraform.lock.hcl
-.terraform/
+.terraform*
 prod.tfplan.json
 terraform.log
-terraform.sh

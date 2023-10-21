@@ -15,7 +15,8 @@ resource "aws_iam_policy" "test-policy" {
     Statement = [{
       Action   = ["s3:*", "s3:GetBucketLocation", "s3:ListAllMyBucket"]
       Effect   = "Allow"
-      Resource = "arn:aws:s3:::*"
+      Resource = "*"
+      #Resource = "arn:aws:s3:::*"
     }]
     Version = "2012-10-17"
   })

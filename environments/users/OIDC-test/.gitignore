@@ -1,5 +1,0 @@
-.terraform/
-oidc/
-terra-*
-environments/eks/*
-.terraform.lock.hcl

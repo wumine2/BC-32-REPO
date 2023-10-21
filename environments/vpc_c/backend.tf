@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket  = "bootcamp32-prod-2"
+    bucket  = "bootcamp32-prod-1"
     region  = "us-west-2"
-    key     = "vpc/terraform.tfstate"
+    key     = "vpc_c/terraform.tfstate"
     encrypt = true
   }
 }
