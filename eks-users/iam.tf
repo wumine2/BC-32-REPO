@@ -17,7 +17,7 @@ data "aws_iam_policy_document" "developer" {
   }
 }
 
-#Permissions for Manager user who is the Admin
+#Permissions for Manager user who is the Admin (Admin Group)
 data "aws_iam_policy_document" "admin" {
   statement {
     sid       = "AllowAdmin"

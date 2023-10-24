@@ -34,9 +34,9 @@ spec:
                   - key: role
                     operator: In
                     values:
-                      - platform
-      # tolerations:
+                      - devops
+      #tolerations:
       # - key: team
-      #   operator: Equal
-      #   value: devops
-      #   effect: NoSchedule
+        # operator: Equal
+        # value: devops
+        # effect: NoSchedule

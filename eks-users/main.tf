@@ -49,16 +49,16 @@ resource "aws_iam_role" "managers" {
   assume_role_policy = data.aws_iam_policy_document.manager_assume_role.json
 }
 
-#Policy attachement for Manager
-resource "aws_iam_role_policy_attachment" "admin_policy" {
-  role       = aws_iam_role.managers.name
-  policy_arn = aws_iam_policy.eks_admin.arn
-}
-
 #Policy for the Admin/Manager
 resource "aws_iam_policy" "eks_admin" {
   name   = "eks-admin"
   policy = data.aws_iam_policy_document.admin.json
+}
+
+#Policy attachment for Manager
+resource "aws_iam_role_policy_attachment" "admin_policy" {
+  role       = aws_iam_role.managers.name
+  policy_arn = aws_iam_policy.eks_admin.arn
 }
 
 

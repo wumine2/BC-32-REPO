@@ -1,7 +1,7 @@
 apiVersion: v1 
-kind: serviceAccountName
+kind: ServiceAccount
 metadata:
    name: aws-test
    namespace: default
    annotations: 
-     eks.amazonaws.com/role-arn: arn:aws:iam::123456:role/test-oidc
+     eks.amazonaws.com/role-arn: arn:aws:iam::637589518182:role/test-oidc

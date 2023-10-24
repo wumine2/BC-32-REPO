@@ -3,7 +3,7 @@ data "aws_eks_cluster" "my-cluster" {
 }
 
 data "tls_certificate" "eks" {
-  url = data.aws_eks_cluster.my_cluster.identity[0].oidc[0].issuer
+  url = data.aws_eks_cluster.my-cluster.identity[0].oidc[0].issuer
 }
 
 #IAM Policy for OIDC Provider
